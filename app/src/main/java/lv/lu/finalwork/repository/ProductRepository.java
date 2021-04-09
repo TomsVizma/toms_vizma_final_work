@@ -3,6 +3,7 @@ package lv.lu.finalwork.repository;
 
 import lv.lu.finalwork.model.Product;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -22,7 +23,8 @@ public class ProductRepository implements Repository<Product> {
 
     @Override
     public List<Product> findAll() {
-        return null;
+        return new ArrayList(repository.values());
+
     }
 
     @Override

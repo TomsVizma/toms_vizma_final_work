@@ -4,6 +4,7 @@ import lv.lu.finalwork.model.Product;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -33,9 +34,7 @@ public class ProductRepositoryTest {
         repoMock.put(2L, fish);
 
         List<Product> result = victim.findAll();
-
         assertNotNull(result);
-//        assertEquals(2, result.size());
         assertTrue(result.contains(orange));
         assertTrue(result.contains(fish));
     }
