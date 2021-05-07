@@ -1,6 +1,6 @@
 package lv.lu.finalwork.repository;
 
-import lv.lu.finalwork.model.Product;
+import lv.lu.finalwork.domain.Product;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -19,7 +19,7 @@ import static org.mockito.Mockito.*;
 public class ProductRepositoryTest {
 
     @InjectMocks
-    private ProductRepository victim;
+    private ProductOrmRepository victim;
 
     @Mock
     private Map<Long, Product> repoMock;

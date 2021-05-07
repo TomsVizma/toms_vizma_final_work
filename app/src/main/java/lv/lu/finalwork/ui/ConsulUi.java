@@ -2,7 +2,6 @@ package lv.lu.finalwork.ui;
 
 import lv.lu.finalwork.model.ProductInputData;
 import lv.lu.finalwork.service.ProductService;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
